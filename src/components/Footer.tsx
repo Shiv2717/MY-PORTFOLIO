@@ -50,7 +50,7 @@ const Footer: React.FC = () => {
           <div>
             <p className="text-gray-400 text-sm flex items-center">
               &copy; {currentYear} Made with{' '}
-              <Heart size={14} className="mx-1 text-red-500" fill="currentColor" /> by Alex Smith
+              <Heart size={14} className="mx-1 text-red-500" fill="currentColor" /> by Shivam Kumar Mishra
             </p>
           </div>
         </div>
