@@ -12,7 +12,7 @@ import { motion } from 'framer-motion';
 function App() {
   // Change page title
   useEffect(() => {
-    document.title = 'Alex Smith | Portfolio';
+    document.title = 'Shivam Kumar Mishra | Portfolio';
   }, []);
 
   return (
