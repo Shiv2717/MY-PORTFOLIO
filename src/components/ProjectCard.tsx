@@ -11,7 +11,7 @@ interface ProjectCardProps {
 const ProjectCard: React.FC<ProjectCardProps> = ({ project, onHoverProject }) => {
   return (
     <motion.div
-      className="relative rounded-xl backdrop-blur-sm bg-white/20 dark:bg-black/20 
+      className="relative rounded-xl backdrop-blur-sm bg-white/80 dark:bg-black/20 
                  border border-gray-200 dark:border-gray-800 overflow-hidden 
                  hover:shadow-xl transition-shadow duration-300"
       initial={{ opacity: 0, y: 20 }}
@@ -22,30 +22,30 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, onHoverProject }) =>
       whileHover={{ y: -5 }}
     >
       <div className="p-6 flex flex-col h-full">
-        <h3 className="text-xl font-bold mb-2 text-gray-800 dark:text-white group">
+        <h3 className="text-xl font-bold mb-2 text-gray-900 dark:text-white group">
           {project.title}
           <span className="inline-block ml-1 transition-transform group-hover:translate-x-1">
             <ArrowUpRight size={18} className="inline" />
           </span>
         </h3>
-        
-        <p className="text-gray-600 dark:text-gray-300 mb-4">
+
+        <p className="text-gray-800 dark:text-gray-300 mb-4">
           {project.description}
         </p>
-        
+
         <div className="flex flex-wrap gap-2 mb-6">
           {project.tags.map((tag, index) => (
             <span
               key={index}
               className="px-3 py-1 text-xs font-medium rounded-full 
-                        bg-indigo-100 text-indigo-800 
-                        dark:bg-indigo-900/30 dark:text-indigo-300"
+                        bg-indigo-200 text-indigo-900 
+                        dark:bg-indigo-900/40 dark:text-indigo-200"
             >
               {tag}
             </span>
           ))}
         </div>
-        
+
         <div className="mt-auto flex gap-4">
           {project.demoLink && (
             <a
@@ -67,7 +67,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, onHoverProject }) =>
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-1 text-sm font-medium 
-                        text-gray-600 hover:text-gray-800 
+                        text-gray-700 hover:text-gray-900 
                         dark:text-gray-400 dark:hover:text-gray-300 
                         transition-colors"
             >
