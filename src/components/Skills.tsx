@@ -8,19 +8,17 @@ const Skills: React.FC = () => {
     'HTML5',
     'CSS3',
     'JavaScript',
-    'TypeScript',
     'React',
-    'Vue.js',
     'Node.js',
     'Express',
     'MongoDB',
     'Firebase',
-    'GraphQL',
-    'REST APIs',
     'Git',
     'Webpack',
     'Tailwind CSS',
-    'SCSS',
+    'C',
+    'Python',
+    'MATLAB',
   ];
 
   const designSkills = [
@@ -43,7 +41,7 @@ const Skills: React.FC = () => {
     { name: 'JavaScript', level: 50 },
     { name: 'React', level: 40 },
     { name: 'UI/UX Design', level: 75 },
-    { name: 'Node.js', level: 50 },
+    { name: 'Python', level: 70 },
     { name: 'Database', level: 65 },
   ];
 
