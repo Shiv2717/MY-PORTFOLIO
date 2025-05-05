@@ -9,8 +9,6 @@ const Skills: React.FC = () => {
     'CSS3',
     'JavaScript',
     'React',
-    'Node.js',
-    'Express',
     'MongoDB',
     'Firebase',
     'Git',
